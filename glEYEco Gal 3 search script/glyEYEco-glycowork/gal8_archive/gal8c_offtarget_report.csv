@@ -1,0 +1,40 @@
+# Galectin-8 C-CRD Off-Target Report
+# Glycan microarray binding scores (log-scale RFU) for Galectin-8 C-terminal CRD across ~35 glycan structures.
+# Each glycan is classified as TARGET (confirmed Gal-8C binder, score > 0) or OFF-TARGET (background / sulfated GAG cross-reactivity).
+# Scores are sourced from the glycowork glycan_binding dataset and processed in galectin8_analysis_enhanced.ipynb.
+# Used to assess off-target binding risk for any therapeutic design based on the Gal-8C domain.
+glycan,gal8c_score,classification
+Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)GlcNAc,6.982557822,TARGET
+Gal3S(b1-4)Glc6S,5.795990686,OFF-TARGET
+Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc,5.184877273,TARGET
+Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)Glc,4.290964948,TARGET
+Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)Glc,3.0815997,TARGET
+Fuc(a1-2)[Gal(a1-3)]Gal(b1-3)GlcNAc,3.042940042,TARGET
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)Glc,2.731953226,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GlcNAc6S,2.116460128,TARGET
+Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc,2.045431786,TARGET
+Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc,1.802999768,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GlcNAc,1.533853586,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc,1.528405211,TARGET
+Gal3S(b1-4)Glc,0.714326385,OFF-TARGET
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,0.655611387,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc,0.605795585,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,0.594271279,TARGET
+Gal3S(b1-4)GlcNAc6S,0.561710418,OFF-TARGET
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc6S,0.378666665,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GalNAc6S,0.368467884,TARGET
+Neu5Gc(a2-3)Gal(b1-3)GlcNAc,0.344520158,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GlcNAc,0.344033067,TARGET
+Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GlcNAc,0.31635694,TARGET
+Gal3S(b1-3)GlcNAc,0.308424964,OFF-TARGET
+Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)Glc,0.26156564,TARGET
+Kdn(a2-3)Gal(b1-3)GlcNAc,0.251289867,TARGET
+Gal(b1-4)GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc,0.242803678,TARGET
+Neu5Gc(a2-3)Gal(b1-4)Glc,0.232323937,TARGET
+Gal3S(b1-3)GalNAc,0.203178383,OFF-TARGET
+Neu5Ac(a2-3)Gal(b1-4)Glc,0.192626555,TARGET
+Neu5Ac(a2-3)Gal(b1-3)GalNAc,0.130777606,TARGET
+Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,0.117780855,TARGET
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,0.10817955,TARGET
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,0.042075855,TARGET
+Gal3S6S(b1-4)GlcNAc6S,0.009381033,OFF-TARGET

@@ -1,0 +1,106 @@
+# Galectin-8 C-CRD Targeted Glycan Binding — Ocular-Relevant Epitopes
+# Gal-8C binding scores organised by glycan class: LacNAc, Tn antigen, Core 2, Core 3, Sialyl-T, and Sialyl-Tn.
+# All glycans were selected for relevance to the ocular surface and overlap with known Galectin-3 target epitopes.
+# Scores are log-scale RFU values from glycan microarray data in the glycowork glycan_binding dataset.
+# Generated in galectin8_analysis_enhanced.ipynb to compare Gal-8C vs Gal-3 affinity on shared ocular glycan structures.
+glycan_class,glycan,gal8c_score,status
+LacNAc,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc,5.1849,MEASURED
+LacNAc,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc,2.0454,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc,1.803,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc,1.5284,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,0.6556,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)GlcNAc6S,0.3787,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GlcNAc,0.3164,MEASURED
+LacNAc,Gal(b1-4)GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc,0.2428,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,0.1178,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,0.1082,MEASURED
+LacNAc,Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,0.0421,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.0093,MEASURED
+LacNAc,GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.0745,MEASURED
+LacNAc,Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.1219,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.1223,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)GlcNAc,-0.1607,MEASURED
+LacNAc,Kdn(a2-3)Gal(b1-4)GlcNAc,-0.2048,MEASURED
+LacNAc,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.2076,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,-0.2235,MEASURED
+LacNAc,Gal(a1-3)[Gal(a1-4)]Gal(b1-4)GlcNAc,-0.2246,MEASURED
+LacNAc,Gal(a1-3)Gal(b1-4)GlcNAc,-0.2248,MEASURED
+LacNAc,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.2331,MEASURED
+LacNAc,Neu5Gc(a2-3)Gal(b1-4)GlcNAc,-0.2384,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.2434,MEASURED
+LacNAc,Fuc(a1-2)Gal(b1-4)GlcNAc,-0.2477,MEASURED
+LacNAc,Neu5Ac9Ac(a2-6)Gal(b1-4)GlcNAc,-0.259,MEASURED
+LacNAc,GlcNAc(b1-3)Gal(b1-4)GlcNAc,-0.2642,MEASURED
+LacNAc,Neu5Ac(a2-6)Gal(b1-4)GlcNAc6S,-0.2649,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,-0.2675,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GlcNAc,-0.2818,MEASURED
+LacNAc,Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,-0.2826,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,-0.2833,MEASURED
+LacNAc,GalNAc(b1-3)Gal(a1-4)Gal(b1-4)GlcNAc,-0.2847,MEASURED
+LacNAc,Gal(b1-4)GalNAc(b1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc,-0.291,MEASURED
+LacNAc,GlcNAc(a1-6)Gal(b1-4)GlcNAc,-0.2928,MEASURED
+LacNAc,GlcNAc(b1-6)Gal(b1-4)GlcNAc,-0.2932,MEASURED
+LacNAc,Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GlcNAc,-0.2978,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,-0.2994,MEASURED
+LacNAc,Neu5Ac(a2-6)Gal(b1-4)GlcNAc,-0.3036,MEASURED
+LacNAc,Neu5Gc(a2-6)Gal(b1-4)GlcNAc,-0.3042,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-6)GalNAc,-0.3056,MEASURED
+LacNAc,GlcNAc(b1-4)Gal(b1-4)GlcNAc,-0.3155,MEASURED
+LacNAc,Gal(b1-3)GalNAc(b1-3)Gal(b1-4)GlcNAc,-0.3162,MEASURED
+LacNAc,Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,-0.317,MEASURED
+LacNAc,Fuc(a1-2)[GalNAc(a1-4)]Gal(b1-4)GlcNAc,-0.3173,MEASURED
+LacNAc,Gal(b1-4)GlcNAc,-0.3206,MEASURED
+LacNAc,Neu5Ac(a2-3)[GalNAc(b1-4)]Gal(b1-4)GlcNAc,-0.3277,MEASURED
+LacNAc,GlcNAc(b1-3)[GlcNAc(b1-6)]Gal(b1-4)GlcNAc,-0.3306,MEASURED
+LacNAc,Fuc(a1-2)Gal(b1-4)GlcNAc6S,-0.332,MEASURED
+LacNAc,Fuc(a1-3)[GalNAc(b1-4)]Gal(b1-4)GlcNAc,-0.3339,MEASURED
+LacNAc,GlcNAc(a1-3)Gal(b1-4)GlcNAc,-0.3386,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-3)GalNAc,-0.3421,MEASURED
+LacNAc,Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,-0.3484,MEASURED
+Tn antigen,Neu5Ac(a2-3)Gal(b1-3)GalNAc6S,0.3685,MEASURED
+Tn antigen,Gal3S(b1-3)GalNAc,0.2032,MEASURED
+Tn antigen,Neu5Ac(a2-3)Gal(b1-3)GalNAc,0.1308,MEASURED
+Tn antigen,Gal(a1-4)Gal(b1-4)GalNAc,-0.1734,MEASURED
+Tn antigen,Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,-0.1798,MEASURED
+Tn antigen,Neu5Ac(a2-3)[Neu5Ac(a2-6)]GalNAc,-0.1879,MEASURED
+Tn antigen,Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,-0.2235,MEASURED
+Tn antigen,Fuc(a1-2)Gal(b1-3)GalNAc,-0.2672,MEASURED
+Tn antigen,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GalNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GalNAc,-0.2739,MEASURED
+Tn antigen,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,-0.2833,MEASURED
+Tn antigen,GlcNAc(b1-3)Gal(b1-3)GalNAc,-0.2929,MEASURED
+Tn antigen,Fuc(a1-2)[Gal(a1-4)]Gal(b1-4)GalNAc,-0.2931,MEASURED
+Tn antigen,Gal(b1-3)GalNAc,-0.2954,MEASURED
+Tn antigen,GalNAc(a1-3)GalNAc,-0.2968,MEASURED
+Tn antigen,Gal(b1-3)[GlcNAc(b1-6)]GalNAc,-0.3026,MEASURED
+Tn antigen,Gal(b1-4)GlcNAc(b1-6)GalNAc,-0.3056,MEASURED
+Tn antigen,GlcNAc(b1-6)GalNAc,-0.3115,MEASURED
+Tn antigen,Neu5Gc(a2-6)GalNAc,-0.3237,MEASURED
+Tn antigen,Gal(a1-3)Gal(b1-4)[Fuc(a1-3)]GalNAc,-0.3304,MEASURED
+Tn antigen,GlcNAc(b1-4)[GlcNAc(b1-6)]GalNAc,-0.3419,MEASURED
+Tn antigen,Gal(b1-4)GlcNAc(b1-3)GalNAc,-0.3421,MEASURED
+Tn antigen,Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,-0.3484,MEASURED
+Tn antigen,Neu5Ac(a2-3)GalNAc,-0.3538,MEASURED
+Tn antigen,Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,-0.3558,MEASURED
+Tn antigen,Neu5Ac(a2-6)GalNAc,-0.3635,MEASURED
+Tn antigen,GlcNAc(b1-3)GalNAc,-0.3668,MEASURED
+Core 3,Gal(b1-4)GlcNAc(b1-3)GalNAc,-0.3421,MEASURED
+Core 3,GlcNAc(b1-3)GalNAc,-0.3668,MEASURED
+Sialyl-Tn,Neu5Ac(a2-6)GalNAc(b1-4)GlcNAc,-0.3393,MEASURED
+Sialyl-Tn,Neu5Ac(a2-6)GalNAc,-0.3635,MEASURED
+Sialyl-T,Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc,0.6058,MEASURED
+Sialyl-T,Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,0.5943,MEASURED
+Sialyl-T,Neu5Ac(a2-3)Gal(b1-3)GalNAc6S,0.3685,MEASURED
+Sialyl-T,Neu5Ac(a2-3)Gal(b1-3)GalNAc,0.1308,MEASURED
+Core 2,Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,-0.2235,MEASURED
+Core 2,Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GlcNAc,-0.2818,MEASURED
+Core 2,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,-0.2833,MEASURED
+Core 2,GlcNAc(b1-6)Gal(b1-4)GlcNAc,-0.2932,MEASURED
+Core 2,GlcNAc(b1-3)[GlcNAc(b1-4)][GlcNAc(b1-6)]GlcNAc,-0.2989,MEASURED
+Core 2,Gal(b1-3)[GlcNAc(b1-6)]GalNAc,-0.3026,MEASURED
+Core 2,Gal(b1-4)GlcNAc(b1-6)GalNAc,-0.3056,MEASURED
+Core 2,GlcNAc(b1-6)GalNAc,-0.3115,MEASURED
+Core 2,Gal(b1-3)[GlcNAc(b1-6)]GlcNAc,-0.3198,MEASURED
+Core 2,GlcNAc(b1-3)[GlcNAc(b1-6)]Gal(b1-4)GlcNAc,-0.3306,MEASURED
+Core 2,GlcNAc(b1-3)[GlcNAc(b1-6)]GlcNAc,-0.3315,MEASURED
+Core 2,GlcNAc(b1-4)[GlcNAc(b1-6)]GalNAc,-0.3419,MEASURED
+Core 2,Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,-0.3484,MEASURED
