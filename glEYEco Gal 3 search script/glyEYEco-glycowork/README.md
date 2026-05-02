@@ -73,7 +73,30 @@ Section 5  Structures for docking: converts glycan names (IUPAC strings) → SMI
 - 3D structure builder: https://glycam.org/cb
 - Glycan registry: https://glytoucan.org
 
-Notes on what to do until May 11 th.
+# Section 2 Edits (Kenneth)
+We chose Gal-3 first because its the most studied. It is also the simplest structure that works. 
+(Find 1-2 literature that is cited by many for Gal-3 that supports this idea and cite it in # Reference)
+
+### Section 2.1 - Where? Confirming the Corneal Epithelium as the Target Site
+- We started with tissue validation because empirical glycan documentation is only meaningful within its target issue. By identifying a binding target in a database without confirming its presence in the relevant biological environment is an assumption rather than evidence. Therefore we need to first validate whether the database we are using has documented data of the tissue we are looking at.
+- As such, we search `df_glycan` for all entries annotated to eye, cornea, tears, lacrimal gland, lens, and conjunctiva. This search results in 134 unique glycan sequences which validates the database we are using as sufficient enough to distinguish glycans. 
+
+### Section 2.2 - What? Establishing that O-glycans are dominate 
+- With the tissue pool established, we then have to ask ourselves which glycan is most dominate in the Corneal Epithelium since the class determines the lectin family. An N-glycan rich surface would point towards N-glycan Binding Lectins whereas an O-glycan rich surface would infer mucin O-glycan readers like Gale-3. 
+- Previous literature establishes the Corneal Epithelium as heavily mucin-glycosylated (MUC1, MUC4, MUC16 are all present), and the database confirms O-glycans are the dominant class in the ocular subset. 
+
+### Section 2.3 - Why? Justifying the choice of Core1 T-Antigen on MUC1 Thr86
+- When choosing between the O-glycans present, our team considered three critical criterion. The glycan needs to be naturally abundant, exposed on the surface, and includes a high binding affinity to Gal-3. Core 1 T-antigen (Gal(b1-3)GalNAc) satisfies all three criterion and is experimentally proven. 
+- Core 1 T-antigen is the dominant O-Glycan on MUC1 Thr86. It is also surface-exposed and the most studied transmembrance mucin of the ocular surface. Its two-sugar structure allows easy recognizable for Gal-3, which helps with high binding affinity, ultimately being a well documented lectin-glycan interaction.
+
+### 2.4 Is it disease specific? Assess whether this glycan changes in ocular disease (Future Direction, not yet decided) 
+- (filtering — still TBD) 2.1 (wet lab and dry lab has not decided if this is possible or if it matters so for future directions before we move on we need to make a program that figures this out (if it matters))
+- This question comes last because it is a refinement of an already-established target, not a prerequisite for it. The first three sub-sections prove that Core 1 is present, appropriate, and bindable under normal conditions. Disease-specificity would strengthen the therapeutic argument — if Core 1 expression increases in dry eye, keratoconus, or inflammatory states, the therapeutic selectively anchors at diseased tissue rather than uniformly across healthy epithelium. But if it does not change, the design remains valid as a constitutive surface anchor; only the disease-targeting claim is affected. Placing this last also honestly reflects where the project currently stands: the wet lab and dry lab have not yet decided whether disease-specificity is a design goal for the current version, so the section is scaffolded as a future direction rather than a completed step.
+
+### 2.5-2.6 Structural motif annotation
+- N/A
+
+### Notes on what to do until May 11th.
 - Step 1 & 2: understand the storyline:
 We chose Gal 3 first because its the most studied,
 it's also the simplest structure that works. 
