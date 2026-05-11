@@ -60,7 +60,7 @@ Section 1  Setup: installs packages, imports everything.
 
 Section 2  Validate target tissue:** searches `df_glycan` for glycans tagged to eye/cornea/lacrimal tissue. Finds ~134. Breaks them down by type and checks which ones carry β-galactoside linkages (the motif Gal-3 recognises).
 
-Section 3  Gal-3 specificity: pulls Galectin-3 binding data from `glycan_binding`, cross-references with the ocular glycan set, and checks how many ocular glycans carry the Core 1 and LacNAc motifs. Section 3.8 is the on-target vs off-target comparison added to quantify selectivity risk.
+Section 3  Gal-3 specificity and off-target risk: rebuilt into two parts. Part 1 (complete) pulls the full Gal-3 binding profile from `glycan_binding`, defines the on-target (Core 1 O-glycan), four off-target classes (LacNAc, bi-antennary N-glycan, ECM glycans, Tn Antigen), and quantifies each one two ways — first by motif prevalence in the ocular tissue subset of `df_glycan`, then by searching for the same structural motifs inside the `glycan_binding` column names to pull actual microarray scores. This sidesteps the IUPAC naming gap between the two databases. Section 3.8 remains the on-target vs off-target summary chart. Part 2 is a scaffold for fusion protein binding validation — no code yet, waiting on the final fusion protein sequence.
 
 Section 4  LectinOracle (optional): an ML model that predicts binding scores for a custom protein sequence. Useful once you have an engineered fusion protein sequence to test.
 
@@ -95,6 +95,18 @@ We chose Gal-3 first because its the most studied. It is also the simplest struc
 
 ### 2.5-2.6 Structural motif annotation
 - N/A
+
+# Section 3 Edits (Smriti)
+
+The new Section 3 drops the family comparison and replaces the broken matching logic with motif-pattern search on both databases independently. The scientific goal shifted from "prove Gal-3 is the best galectin" to "characterise what Gal-3 actually binds and assess whether any of it is a problem for the therapeutic."
+
+What's in it now:
+- **3.1** — Extracts the ranked Gal-3 binding profile from `glycan_binding` (every glycan tested × its log-scale RFU score). Also saves `gal3_sequence` for Section 4.
+- **3.2** — Defines the five target classes (on-target, three off-targets, neg ctrl), then for each one checks exact-match availability in `gal3_scores` and counts motif prevalence in the ocular tissue subset and the full database.
+- **3.3** — The bridging step: searches each structural motif inside the column names of `glycan_binding`, pulls the matching Gal-3 scores, and computes mean and max binding affinity per class. This is where the IUPAC gap gets resolved.
+- **3.7** — Unchanged bar chart of Gal-3 binding scores, now with a write-up explaining what the distribution shape means for therapeutic selectivity.
+- **3.8** — Unchanged on-target vs off-target prevalence charts, now with clearer framing of what to look for.
+- **Part 2 scaffold** — Placeholder for fusion protein binding validation via LectinOracle_flex. Not started — waiting on wet lab to finalise the sequence.
 
 ### Notes on what to do until May 11th.
 - Step 1 & 2: understand the storyline:
