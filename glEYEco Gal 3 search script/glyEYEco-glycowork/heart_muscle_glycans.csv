@@ -1,0 +1,448 @@
+glycan,glycan_type,tissue_sample,disease_association,n_tissue_labels
+Neu5Ac(a2-3)Gal(b1-4)Glc1Cer,lipid,A549_cell_line; AML_193_cell_line; CHOK1_cell_line; EOL_1_cell_line; HEK293_cell,"['cataract', 'glioblastoma', 'lung_small_cell_carcinoma', 'melanoma']",184
+Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; B_cell; C10_cell_line; CHOK1_cell_line; CHOS_cell_line; COLO_205_,"['Toxoplasma_gondii_infection', 'chronic_low_back_pain', 'lung_non_small_cell_ca",142
+Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; BMMC_cell_line; B_cell; C10_cell_line; CHOS_cell_line; COLO_205_c,"['atrial_fibrillation', 'chronic_low_back_pain', 'lung_non_small_cell_carcinoma'",140
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; A9_fibroblast_cell_line; BMMC_cell_line; B_cell; C10_cell_line; C,"['Crohn_disease', 'Lyme_disease', 'colorectal_cancer', 'differentiated_thyroid_g",131
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)Glc1Cer,lipid,HEL92_1_7_cell_line; HEL_cell_line; HL_60_cell_line; KG_1_cell_line; KG_1a_cell_,"['lung_small_cell_carcinoma', 'melanoma', 'melanoma']",126
+Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc1Cer,lipid,A549_cell_line; HCT116_cell_line; HEK293_cell_line; HEL92_1_7_cell_line; HEL_cel,"['cataract', 'glioblastoma', 'lung_small_cell_carcinoma', 'thymic_carcinoma']",125
+Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,BMMC_cell_line; B_cell; C10_cell_line; CHOK1_cell_line; CHOS_cell_line; COLO_205,"['atrial_fibrillation', 'chronic_low_back_pain', 'diabetic_kidney_disease', 'fil",122
+GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; BMMC_cell_line; C10_cell_line; CHOK1_cell_line; CHOS_cell_line; C,"['Lyme_disease', 'Parkinson_disease', 'Toxoplasma_gondii_infection', 'chronic_lo",116
+Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; A549_cell_line; AML_193_cell_line; C10_cell_line; CHOK1_cell_line,"['REM_sleep_behavior_disorder', 'benign_breast_tumor_tissues_vs_para_carcinoma_t",115
+Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc1Cer,lipid,A549_cell_line; AML_193_cell_line; HCT116_cell_line; HEK293_cell_line; HEL92_1_7,"['glioblastoma', 'lung_small_cell_carcinoma']",107
+Neu5Ac(a2-3)Gal(b1-3)GalNAc,O,A549_cell_line; AML_193_cell_line; CHOK1_cell_line; CaCo_2_cell_line; EOL_1_cell,"['cholangiocarcinoma', 'colorectal_cancer', 'colorectal_cancer', 'colorectal_can",99
+Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,O,A549_cell_line; AML_193_cell_line; B_cell; C10_cell_line; CHOK1_cell_line; EOL_1,"['Parkinson_disease', 'cholangiocarcinoma', 'colorectal_cancer', 'colorectal_can",99
+Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; AML_193_cell_line; C10_cell_line; CHOK1_cell_line; CHOK1_cell_lin,"['LPS_induced_inflammation', 'benign_breast_tumor_tissues_vs_para_carcinoma_tiss",96
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; Apo_H; B_cell; CHOS_cell_line; COLO_205_cell_line; Cal-27_cell_li,"['Lyme_disease', 'esophagus_adenocarcinoma', 'filarial_elephantiasis', 'type_2_d",93
+Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; A9_fibroblast_cell_line; BMMC_cell_line; C10_cell_line; CHOS_cell,['colorectal_cancer'],90
+Neu5Ac(a2-8)Neu5Ac(a2-3)[Gal(b1-3)GalNAc(b1-4)]Gal(b1-4)Glc1Cer,lipid,HEL_cell_line; HL_60_cell_line; ME_1_cell_line; ML_1_cell_line; TF_1_cell_line; ,"['alzheimers_disease', 'glioblastoma']",83
+Neu5Ac(a2-3)[GalNAc(b1-4)]Gal(b1-4)Glc1Cer,lipid,A549_cell_line; HEK293_cell_line; N370FG_cell_line; adipose_tissue; astrocyte; b,['cataract'],81
+Glc1Cer,lipid,COS7_cell_line; HT29_cell_line; M1_cell_line; MDCK_cell_line; N370FG_cell_line; ,['melanoma'],79
+Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; A549_cell_line; AML_193_cell_line; C10_cell_line; CHOS_cell_line;,['thyroid_gland_papillary_carcinoma'],77
+Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-8)Neu5Ac(a2-3)]Gal(b1-4)Glc1Cer,lipid,adipose_tissue; adrenal_medulla; aorta; astrocyte; blood_serum; brain; brain; br,[],77
+GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HL_60_cell_line; K562_cell_line; MDCK_SIAT1_cell_line; MDCK_cell_line; THP1_cell,"['Crohn_disease', 'Lyme_disease', 'atrial_fibrillation', 'chronic_low_back_pain'",72
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,A9_fibroblast_cell_line; B_cell; CHOK1_cell_line; CHOS_cell_line; Cervicovaginal,"['Crohn_disease', 'Lyme_disease', 'esophagus_adenocarcinoma', 'gastric_cancer', ",71
+Gal(b1-4)Glc1Cer,lipid,A549_cell_line; CHOK1_cell_line; COS7_cell_line; HEK293_cell_line; HT29_cell_lin,"['Fabry_disease', 'X-linked_lymphoproliferative_syndrome_1', 'cataract', 'lung_s",69
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; AML_193_cell_line; Apo_H; C10_cell_line; COLO_320_cell_line; Cal-,"['Parkinson_disease', 'cholangiocarcinoma', 'influenza', 'multiple_sclerosis', '",68
+Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; C10_cell_line; COLO_205_cell_line; COLO_320_cell_line; Caco_2_cel,[],65
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; B_cell; C10_cell_line; COLO_205_cell_line; COLO_320_cell_line; Ca,"['diabetic_kidney_disease', 'lung_non_small_cell_carcinoma']",61
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; AML_193_cell_line; C10_cell_line; COLO_320_cell_line; Cal-27_cell,[],59
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,AML_193_cell_line; EOL_1_cell_line; HEL92_1_7_cell_line; HEL_cell_line; HL_60_ce,"['cataract', 'lung_small_cell_carcinoma']",59
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,AML_193_cell_line; C10_cell_line; COLO_205_cell_line; COLO_320_cell_line; Caco_2,['colorectal_cancer'],58
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; Caco_2_cell_line; HCT_8_cell_line; HT_29_cell_line; K562_cell_line; MDCK,"['Parkinson_disease', 'prostate_cancer', 'type_2_diabetes_mellitus']",58
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,BMMC_cell_line; B_cell; CHOK1_cell_line; CRL_1620_cell_line; HL_60_cell_line; K5,"['benign_breast_tumor_tissues_vs_para_carcinoma_tissues', 'filarial_elephantiasi",58
+Man(a1-3/6)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,AML_193_cell_line; C10_cell_line; CHOK1_cell_line; CHOS_cell_line; COLO_205_cell,[],56
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; AML_193_cell_line; C10_cell_line; COLO_205_cell_line; COLO_320_ce,[],56
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A9_fibroblast_cell_line; B_cell; CHOK1_cell_line; CRL_1620_cell_line; Cervicovag,"['atrial_fibrillation', 'benign_breast_tumor_tissues_vs_para_carcinoma_tissues',",56
+Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,A549_cell_line; B_cell; C10_cell_line; CaCo_2_cell_line; HCT116_cell_line; HEK29,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer', 'colorectal_canc",55
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; CHOK1_cell_line; CRL_1620_cell_line; HL_60_cell_line; HeLaEV2_cell_line;,"['Lyme_disease', 'gastric_cancer', 'lung_non_small_cell_carcinoma', 'type_2_diab",54
+{Man(a1-2)}Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,BMMC_cell_line; B_cell; HL_60_cell_line; HeLaEV2_cell_line; HeLaPF_cell_line; K5,['lung_non_small_cell_carcinoma'],52
+Gal1Cer,lipid,COS7_cell_line; MDCK_cell_line; N370FG_cell_line; RAW264.7_cell_line; adrenal_gl,"['Krabbe_disease', 'lung_small_cell_carcinoma', 'melanoma']",51
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; AML_193_cell_line; Apo_H; C10_cell_line; COLO_320_cell_line; Cal-,"['colorectal_cancer', 'colorectal_cancer', 'influenza', 'thyroid_gland_papillary",50
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,B_cell; CHOK1_cell_line; CHOS_cell_line; CRL_1620_cell_line; Cervicovaginal_Secr,"['filarial_elephantiasis', 'lung_non_small_cell_carcinoma', 'type_2_diabetes_mel",50
+Gal(a1-4)Gal(b1-4)Glc1Cer,lipid,COS7_cell_line; HCT116_cell_line; ME_1_cell_line; MV4_11_cell_line; M_07e_cell_l,"['Fabry_disease', 'Fabry_disease', 'cataract', 'melanoma']",50
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,AML_193_cell_line; C10_cell_line; COLO_205_cell_line; COLO_320_cell_line; Caco_2,"['colorectal_cancer', 'colorectal_cancer']",49
+Neu5Ac(a2-3)Gal1Cer,lipid,adrenal_gland; adrenal_gland; brain; brain; brain; brain; brain; brain; brain; c,[],49
+Gal(b1-3)[GlcNAc(b1-6)]GalNAc,O,A549_cell_line; HL_60_cell_line; MV4_11_cell_line; U_937_cell_line; actinopteryg,"['Parkinson_disease', 'Sjogrens_syndrome', 'colorectal_cancer', 'liver_cancer', ",48
+GlcNAc,O,HEK293_cell_line; HeLa_cell_line; T_cell; anterior_lobe_of_cerebellum; brain; br,[],47
+Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,O,C10_cell_line; T84_cell_line; actinopterygian_pyloric_caecum; brain; colon; colo,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer', 'liver_cancer', ",47
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,A9_fibroblast_cell_line; Cervicovaginal_Secretion; HL_60_cell_line; K562_cell_li,"['Parkinson_disease', 'chronic_low_back_pain', 'lung_non_small_cell_carcinoma', ",46
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A9_fibroblast_cell_line; B_cell; CHOK1_cell_line; CRL_1620_cell_line; HEK293_cel,"['diabetic_kidney_disease', 'esophagus_adenocarcinoma', 'filarial_elephantiasis'",44
+Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; CHOS_cell_line; Cal-27_cell_line; FaDu_cell_line; NS0_cell_line; ,[],43
+Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; C10_cell_line; COLO_205_cell_line; COLO_320_cell_line; Caco_2_cel,['urinary_bladder_cancer'],43
+GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc1Cer,lipid,HCT116_cell_line; HEL_cell_line; ML_1_cell_line; MOLM_13_cell_line; MV4_11_cell_,"['cataract', 'lung_small_cell_carcinoma', 'melanoma']",43
+Neu5Ac(a2-3)Gal(b1-3)[GlcNAc(b1-6)]GalNAc,O,A549_cell_line; AML_193_cell_line; CaCo_2_cell_line; EOL_1_cell_line; HEK293_cel,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer', 'colorectal_canc",43
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; AML_193_cell_line; C10_cell_line; COLO_320_cell_line; Cal-27_cell,[],43
+Neu5Gc(a2-3)Gal(b1-4)Glc1Cer,lipid,adipose_tissue; adipose_tissue; adrenal_gland; adrenal_gland; adrenal_gland; adr,[],42
+Man(a1-2/3/6)Man(a1-3/6)[Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,MDA_MB_231BR_cell_line; brain; cerebellar_cortex; cerebellar_cortex; cerebellar_,[],42
+Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; AML_193_cell_line; C10_cell_line; CHOK1_cell_line; FaDu_cell_line,"['colorectal_cancer', 'colorectal_cancer', 'urinary_bladder_cancer']",42
+GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CRL_1620_cell_line; Cervicovaginal_Secretion; K562_cell_line; MDA_MB_231BR_cell_,"['esophagus_adenocarcinoma', 'lung_non_small_cell_carcinoma', 'prostate_cancer',",39
+GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Caco_2_cell_line; Cervicovaginal_Secretion; HL_60_cell_line; K562_cell_line; THP,['diabetic_kidney_disease'],39
+GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CHOS_cell_line; HEK293_cell_line; NS0_cell_line; brain; brain; cerebellar_cortex,"['diabetic_kidney_disease', 'lung_non_small_cell_carcinoma', 'urinary_bladder_ca",37
+{Man(a1-2)}Man(a1-2)Man(a1-3/6)[Man(a1-3/6)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,BMMC_cell_line; B_cell; HL_60_cell_line; HeLaEV2_cell_line; HeLaPF_cell_line; K5,[],37
+Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CHOS_cell_line; HEK293_cell_line; HL_60_cell_line; HeLaEV2_cell_line; HeLaPF_cel,['benign_breast_tumor_tissues_vs_para_carcinoma_tissues'],36
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; AML_193_cell_line; C10_cell_line; COLO_205_cell_line; COLO_320_ce,[],35
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,AML_193_cell_line; EOL_1_cell_line; HEL92_1_7_cell_line; HEL_cell_line; HL_60_ce,[],34
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-8)Neu5Ac(a2-3)]Gal(b1-4)Glc1Cer,lipid,blood_serum; brain; brain; brain; cauda_equina; cerebellum; cerebellum; cerebral,['glioblastoma'],34
+GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,B_cell; CHOS_cell_line; HL_60_cell_line; HeLaEV2_cell_line; K562_cell_line; NS0_,['esophageal_cancer'],32
+Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; Caco_2_cell_line; Cal-27_cell_line; HEL92_1_7_cell_line; HEL_cell,"['chronic_low_back_pain', 'colorectal_cancer', 'colorectal_cancer', 'diabetic_ki",32
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Caco_2_cell_line; Cervicovaginal_Secretion; HL_60_cell_line; HT_29_cell_line; SW,"['prostate_cancer', 'type_2_diabetes_mellitus', 'urinary_bladder_cancer']",32
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; C10_cell_line; CHOK1_cell_line; Cal-27_cell_line; FaDu_cell_line;,[],31
+Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,AML_193_cell_line; EOL_1_cell_line; HEL92_1_7_cell_line; HEL_cell_line; HL_60_ce,"['cataract', 'lung_small_cell_carcinoma']",31
+Neu5Ac(a2-8)Neu5Ac(a2-3)[GalNAc(b1-4)]Gal(b1-4)Glc1Cer,lipid,HEL92_1_7_cell_line; ML_1_cell_line; brain; brain; brain; brain; brain; brain; b,['glioblastoma'],30
+Neu5Ac(a2-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,O,A549_cell_line; CaCo_2_cell_line; HCT116_cell_line; HEK293_cell_line; LS174T_cel,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer', 'colorectal_canc",29
+GalNAc(b1-3)Gal,O,S2_cell_line; blood_serum; cervical_mucus; colon; duodenum; eye; eye; eye; gill;,[],28
+Man(a1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,AML_193_cell_line; C10_cell_line; Caco_2_cell_line; EOL_1_cell_line; HEL92_1_7_c,['colorectal_cancer'],27
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,C10_cell_line; COLO_205_cell_line; COLO_320_cell_line; Caco_2_cell_line; Co_115_,[],26
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,AML_193_cell_line; HEL92_1_7_cell_line; HEL_cell_line; HL60_cell_line; HL_60_cel,['benign_breast_tumor_tissues_vs_para_carcinoma_tissues'],26
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Cervicovaginal_Secretion; HL_60_cell_line; K562_cell_line; THP1_cell_line; T_cel,"['Crohn_disease', 'chronic_low_back_pain', 'lung_non_small_cell_carcinoma', 'typ",26
+Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,AML_193_cell_line; EOL_1_cell_line; HEL92_1_7_cell_line; HEL_cell_line; HL_60_ce,[],26
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; C10_cell_line; COLO_205_cell_line; COLO_320_cell_line; Caco_2_cel,"['colorectal_cancer', 'colorectal_cancer']",26
+GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Caco_2_cell_line; SW1116_cell_line; SW480_cell_line; SW620_cell_line; alveolus_o,[],26
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,AML_193_cell_line; EOL_1_cell_line; HEL92_1_7_cell_line; HEL_cell_line; HL_60_ce,[],25
+Gal(b1-3)GalNAc,O,colon; colon; colonic_mucosa; colonic_mucosa; colonic_mucosa; cornea; ileum; liv,"['colorectal_cancer', 'liver_cancer']",25
+Neu5Ac(a2-6)GalNAc,O,actinopterygian_pyloric_caecum; colon; colon; colonic_mucosa; colonic_mucosa; ey,"['Parkinson_disease', 'colorectal_cancer', 'liver_cancer']",25
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,BMMC_cell_line; B_cell; HL_60_cell_line; HeLaEV2_cell_line; HeLaPF_cell_line; K5,[],24
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,BMMC_cell_line; CHOK1_cell_line; CRL_1620_cell_line; bone_marrow_mast_cells; bra,['lung_non_small_cell_carcinoma'],24
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HL60_cell_line; HeLaEV2_cell_line; K562_cell_line; MDCK_SIAT1_cell_line; PBMC_ce,"['chronic_low_back_pain', 'lung_non_small_cell_carcinoma', 'prostate_cancer']",24
+Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,BMMC_cell_line; B_cell; HL_60_cell_line; HeLaPF_cell_line; K562_cell_line; PBMC_,[],24
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc,O,HT29_cell_line; aorta; bone_marrow_mast_cells; brain; colon; eye; heart; heart; ,"['Sjogrens_syndrome', 'cholangiocarcinoma', 'pancreatic_cancer', 'stomach_cancer",24
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,A9_fibroblast_cell_line; CHOK1_cell_line; HeLaEV2_cell_line; HeLaPF_cell_line; M,['filarial_elephantiasis'],24
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; C10_cell_line; COLO_320_cell_line; Cal-27_cell_line; Co_115_cell_,[],23
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,C10_cell_line; HCT_8_cell_line; KM12_cell_line; LS180_cell_line; LoVo_cell_line;,[],23
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,HCT116_cell_line; cervical_mucus; colon; colon; colonic_mucosa; colonic_mucosa; ,"['Parkinson_disease', 'colorectal_cancer', 'colorectal_cancer', 'liver_cancer']",22
+Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,A549_cell_line; CHOK1_cell_line; HEK293_cell_line; alveolus_of_lung; digestive_t,[],22
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; C10_cell_line; COLO_320_cell_line; Cal-27_cell_line; Co_115_cell_,[],22
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CHOK1_cell_line; HEK293_cell_line; NS0_cell_line; blood_serum; brain; cerebellum,"['chronic_low_back_pain', 'gastric_cancer', 'gastric_polyps', 'gastritis', 'lung",21
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; AML_193_cell_line; Cal-27_cell_line; FaDu_cell_line; KG_1_cell_li,[],21
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,albumen; blood_serum; heart; heart; kidney; kidney; lung; muscle_structure; musc,[],21
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; colon; heart; heart; heart; heart; kidney; kidney; liver; liver; ,[],21
+GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,egg_white; egg_white; egg_white; egg_white; heart; milk; milk; milk; muscle_stru,[],19
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,AML_193_cell_line; EOL_1_cell_line; HEL_cell_line; HL_60_cell_line; KG_1_cell_li,"['colorectal_adenocarcinoma', 'liver_cancer']",19
+Gal(b1-3)GalNAc(b1-4)[Neu5Gc(a2-3)]Gal(b1-4)Glc1Cer,lipid,adrenal_gland; aorta; erythrocyte; erythrocyte; iPS1A_cell_line; iPS2A_cell_line,['colon_cancer'],19
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; brain; liver; lung; milk; milk; milk; milk; muscle_structure; neu,['filarial_elephantiasis'],18
+GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CRL_1620_cell_line; LS174T_cell_line; LS180_cell_line; LS411N_cell_line; LoVo_ce,[],18
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; COLO_205_cell_line; HL_60_cell_line; K562_cell_line; MDCK_SIAT1_cell_lin,"['lung_non_small_cell_carcinoma', 'type_1_diabetes_mellitus']",18
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; HL60_cell_line; K562_cell_line; T_cells; colon; dendritic_cells; forebra,[],18
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; HEK293_cell_line; K562_cell_line; T_cell; brain; colon; erythrocyte; hCK,"['lung_non_small_cell_carcinoma', 'type_1_diabetes_mellitus']",18
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,cornea; kidney; liver; lung; milk; milk; milk; milk; muscle_structure; neutrophi,['filarial_elephantiasis'],18
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A9_fibroblast_cell_line; B_cell; HeLaEV2_cell_line; HeLaPF_cell_line; K562_cell_,[],18
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney; kidney; kidney; liver; lung; muscle_structure; muscle_stru,[],17
+Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; Cal-27_cell_line; NS0_cell_line; SCC-9_cell_line; SCC_25_cell_lin,['benign_breast_tumor_tissues_vs_para_carcinoma_tissues'],17
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HEK293_cell_line; K562_cell_line; brain; cerebellum; cortex; forebrain; hCK_cell,[],17
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CHOK1_cell_line; NS0_cell_line; cornea; heart; kidney; kidney; liver; liver; lun,[],17
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,SW1398_cell_line; SW48_cell_line; blood_serum; brain; kidney; liver; lung; mamma,['diabetic_kidney_disease'],17
+GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)[GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CRL_1620_cell_line; MDA_MB_231BR_cell_line; brain; cerebellum; cortex; forebrain,['colorectal_cancer'],17
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; HL60_cell_line; HeLaEV2_cell_line; K562_cell_line; T_cell; colon; dendri,[],17
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; Cal-27_cell_line; FaDu_cell_line; SCC-9_cell_line; SCC_25_cell_li,[],16
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,HL_60_cell_line; HeLaEV2_cell_line; HeLaPF_cell_line; K562_cell_line; dendritic_,[],16
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,Apo_H; amniotic_fluid; blood_serum; blood_serum; egg_yolk; heart; kidney; liver;,"['influenza', 'thyroid_gland_papillary_carcinoma']",16
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; Cal-27_cell_line; FaDu_cell_line; SCC-9_cell_line; SCC_25_cell_li,[],16
+GlcNAc(b1-3)GalNAc,O,cervical_mucus; colonic_mucosa; colonic_mucosa; heart; intestinal_mucosa; intest,[],16
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; HL60_cell_line; K562_cell_line; T_cells; colon; heart; lung; milk; milk;,[],16
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; Cal-27_cell_line; FaDu_cell_line; SCC-9_cell_line; SCC_25_cell_li,['colorectal_cancer'],16
+Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Caco_2_cell_line; Co_115_cell_line; DLD_1_cell_line; HCT_8_cell_line; LS411N_cel,[],15
+Gal(b1-3)[Neu5Gc(a2-6)]GalNAc,O,actinopterygian_pyloric_caecum; cervical_mucus; colonic_mucosa; heart; heart; il,[],15
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; liver; lung; milk; milk; muscle_structure; muscle_structure; neutrophil; ,[],15
+{Fuc(a1-2/3/4)}Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; Cal-27_cell_line; FaDu_cell_line; HL_60_cell_line; HeLaEV2_cell_l,[],14
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,HEK293_cell_line; HL60_cell_line; T_cell; dendritic_cells; heart; kidney; milk; ,[],14
+Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,HEL92_1_7_cell_line; HEL_cell_line; ME_1_cell_line; ML_1_cell_line; NB_4_cell_li,[],14
+Neu5Gc(a2-8)Neu5Gc(a2-3)Gal(b1-4)Glc1Cer,lipid,adrenal_gland; adrenal_gland; adrenal_gland; adrenal_medulla; erythrocyte; eryth,[],14
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,HL60_cell_line; K562_cell_line; T_cells; colon; dendritic_cells; heart; kidney; ,"['chronic_low_back_pain', 'lung_non_small_cell_carcinoma', 'type_1_diabetes_mell",14
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,liver; lung; milk; milk; milk; milk; milk; ovary; plasma; plasma; regular_atrial,[],14
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,2A3_cell_line; C10_cell_line; COLO_205_cell_line; Cal-27_cell_line; FaDu_cell_li,[],13
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,COLO_205_cell_line; Co_115_cell_line; HCT_116_cell_line; LS180_cell_line; LS411N,"['cholangiocarcinoma', 'pancreatic_cancer', 'staphyloenterotoxemia', 'stomach_ca",13
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,NS0_cell_line; blood_serum; blood_serum; blood_serum; colon; heart; liver; mecon,[],13
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A9_fibroblast_cell_line; CHOK1_cell_line; MDCK_SIAT1_cell_line; MDCK_cell_line; ,[],13
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; COLO_205_cell_line; Cal-27_cell_line; FaDu_cell_line; HCT_116_cel,[],13
+Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Gc(a2-3)]Gal(b1-4)Glc1Cer,lipid,adipose_tissue; adipose_tissue; adrenal_medulla; aorta; kidney; macrophage; skel,[],13
+Neu5Gc(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Gc(a2-3)]Gal(b1-4)Glc1Cer,lipid,adrenal_medulla; aorta; kidney; kidney; liver; lymphocyte; macrophage; skeletal_,['thymic_carcinoma'],13
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; heart; heart; heart; kidney; kidney; liver; liver; lung; muscle_structure,[],13
+Neu5Gc(a2-3)Gal(b1-3)GalNAc,O,cervical_mucus; colonic_mucosa; heart; heart; heart; ileum; intestinal_mucosa; i,[],13
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,brain; liver; lung; milk; milk; milk; muscle_structure; regular_atrial_cardiac_m,[],12
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,aorta; aorta; cardial_valve; erythrocyte; erythrocyte; erythrocyte; intestine; i,[],12
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,2A3_cell_line; Cal-27_cell_line; FaDu_cell_line; SCC-9_cell_line; SCC_25_cell_li,['LPS_induced_inflammation'],12
+Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,B_cell; HL_60_cell_line; HeLaPF_cell_line; K562_cell_line; THP1_cell_line; heart,['Crohn_disease'],12
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,HEL92_1_7_cell_line; HEL_cell_line; HL_60_cell_line; ML_1_cell_line; NB_4_cell_l,[],12
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,MDCK_cell_line; NS0_cell_line; iPS1A_cell_line; liver; lung; milk; muscle_struct,[],12
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,aorta; erythrocyte; kidney; lymphocyte; skeletal_muscle_tissue; skeletal_muscle_,['colon_cancer'],11
+Man(a1-6)Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A549_cell_line; CHOK1_cell_line; HEK293_cell_line; alveolus_of_lung; heart; iPS1,[],11
+Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,COLO_205_cell_line; Caco_2_cell_line; LoVo_cell_line; SW1116_cell_line; SW480_ce,[],11
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,CHOK1_cell_line; CRL_1620_cell_line; HEK293_cell_line; NS0_cell_line; colon; hea,"['benign_breast_tumor_tissues_vs_para_carcinoma_tissues', 'gastric_cancer', 'gas",11
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; cornea; liver; lung; milk; muscle_structure; neutrophil; regular_,[],11
+Neu5Ac(a2-3)Gal(b1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)]GalNAc,,LS174T_cell_line; LS180_cell_line; SW1116_cell_line; T84_cell_line; cervical_muc,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer', 'colorectal_canc",11
+Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GalNAc,O,LS174T_cell_line; blood_serum; cervical_mucus; heart; meconium; milk; mucosa; mu,"['Parkinson_disease', 'colorectal_cancer']",11
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A9_fibroblast_cell_line; HL_60_cell_line; K562_cell_line; colon; heart; kidney; ,"['lung_non_small_cell_carcinoma', 'type_2_diabetes_mellitus']",10
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GalNAc,O,C10_cell_line; HCT116_cell_line; LS411N_cell_line; SW1116_cell_line; T84_cell_li,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer', 'colorectal_canc",10
+GalNAc(a1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc1Cer,lipid,Nil1_cell_line; adrenal_gland; erythrocyte; erythrocyte; erythrocyte; heart; kid,[],10
+Neu5Gc(a2-3)Gal(b1-3)[Neu5Gc(a2-6)]GalNAc,O,cervical_mucus; colon; colonic_mucosa; heart; heart; mucosa_of_stomach; spleen; ,[],10
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney; kidney; liver; muscle_structure; muscle_structure; muscle_,[],10
+Gal(a1-4)Gal1Cer,lipid,Nil1_cell_line; erythrocyte; heart; kidney; kidney; liver; lung; meconium; neutr,"['Fabry_disease', 'lung_small_cell_carcinoma']",10
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,AML_193_cell_line; EOL_1_cell_line; KG_1a_cell_line; Kasumi_1_cell_line; ME_1_ce,[],10
+Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,erythrocyte; kidney; kidney; pancreas; pericardium; renal_vein; small_intestine;,[],9
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood_serum; heart; heart; kidney; kidney; liver; muscle_structure; muscle_struc,[],9
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; kidney; muscle_of_leg; muscle_structure; muscle_structure; ovary;,[],9
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,alveolus_of_lung; amniotic_fluid; blood_serum; heart; kidney; muscle_of_leg; pit,[],9
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,colon; heart; heart; kidney; kidney; liver; muscle_structure; muscle_structure; ,[],9
+Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,alveolus_of_lung; blood; blood_serum; blood_serum; brain; colon; heart; heart; i,"['atrial_fibrillation', 'colorectal_cancer', 'cystic_fibrosis']",9
+{Fuc(a1-2/3/4)}Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,K562_cell_line; PBMC_cell; T_cells; bone_marrow_mast_cell; heart; kidney; monocy,[],9
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HL60_cell_line; K562_cell_line; T_cells; heart; milk; monocyte; pancreas; regula,[],9
+Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-3)[Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)]Gal(b1-4)Glc1Cer,lipid,ML_1_cell_line; brain; brain; brain; brain; islet_of_Langerhans; liver; muscle_s,[],9
+{GlcNAc(b1-2/4)}Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; kidney; kidney; liver; liver; muscle_structure; muscle_structure; muscle_,[],8
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; muscle_structure; muscle_structure; muscle_structure; plasma; pla,['thyroid_gland_papillary_carcinoma'],8
+Neu5Gc(a2-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,O,A549_cell_line; HEK293_cell_line; brain; colon; heart; heart; mucosa_of_stomach;,[],8
+GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; brain; forebrain; heart; hindbrain; lung; milk; sperm,[],8
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney; kidney; liver; muscle_structure; muscle_structure; muscle_,[],8
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,HEK293_cell_line; HL60_cell_line; dendritic_cells; heart; milk; milk; milk; sple,['lung_non_small_cell_carcinoma'],8
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,digestive_tract; heart; heart; kidney; kidney; liver; muscle_structure; muscle_s,[],8
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,B_cell; HL60_cell_line; K562_cell_line; T_cell; colon; heart; kidney; pancreas,[],8
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,blood_serum; heart; plasma; plasma; plasma; plasma; plasma,[],7
+{Man(a1-2)}Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,BMMC_cell_line; Cervicovaginal_Secretion; milk; muscle_structure; muscle_structu,[],7
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,CHOK1_cell_line; HEK293_cell_line; heart; lung; secretion_of_lacrimal_gland; tra,"['female_breast_cancer', 'lung_non_small_cell_carcinoma']",7
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood_serum; brain; egg_yolk; heart; milk; sperm; urine,['type_1_diabetes_mellitus'],7
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; kidney; liver; muscle_structure; muscle_structure; muscle_structu,[],7
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood_serum; heart; heart; liver; plasma; plasma; plasma,[],7
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney; liver; muscle_structure; muscle_structure; muscle_structur,[],7
+{Neu5Ac(a2-3/6)}Gal(b1-3)GalNAc,O,B_cell; bone_marrow_mast_cells; colon; colon; cornea; heart; spleen,[],7
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CHOK1_cell_line; HEK293_cell_line; heart; iPS2A_cell_line; lung; secretion_of_la,['lung_non_small_cell_carcinoma'],7
+Fuc(a1-2)Gal(b1-3)GalNAc(b1-4)[Neu5Gc(a2-3)]Gal(b1-4)Glc1Cer,lipid,adipose_tissue; adipose_tissue; dorsal_root_ganglion; kidney; liver; pericardium,[],7
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,alveolus_of_lung; colon; heart; mammalian_vulva; ovary; placenta; urine,[],7
+{Man(a1-2)}{Man(a1-2)}Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; kidney; kidney; liver; neutrophil; heart; liver,[],7
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,HL60_cell_line; K562_cell_line; T_cells; heart; milk; monocyte; spleen,[],7
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; kidney; liver; liver; muscle_structure; muscle_structure; muscle_structur,[],7
+Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,ML_1_cell_line; erythrocyte; kidney; kidney; pericardium; small_intestine; stoma,['stomach_carcinoma'],7
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood; blood_serum; heart; heart; heart; muscle_of_leg; ovary,[],7
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,blood_serum; brain; heart; muscle_of_leg; plasma; prostate_gland,[],6
+Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(a2-8)Neu5Ac(a2-6)]GalNAc,O,actinopterygian_pyloric_caecum; heart; ileum; intestinal_mucosa; liver; platelet,['liver_cancer'],6
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney; muscle_structure; muscle_structure; muscle_structure,[],6
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; milk; milk; milk; milk; spleen,"['chronic_low_back_pain', 'type_2_diabetes_mellitus']",6
+GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; milk; muscle_structure; muscle_structure; muscle_structure; retina,[],6
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,A549_cell_line; HEK293_cell_line; iPS1A_cell_line; iPS2A_cell_line; lung; skelet,[],6
+{Neu5Ac(a2-3/6)}Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,B_cell; bone_marrow_mast_cells; colon; heart; spleen; thymus,[],6
+{Fuc(a1-2/3/4)}Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HL_60_cell_line; K562_cell_line; heart; kidney; spleen; zone_of_skin,[],6
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HL60_cell_line; K562_cell_line; colon; heart; kidney; spleen,[],6
+{Fuc(a1-2/3/4)}Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,K562_cell_line; T_cells; heart; kidney; natural_killer_cell; spleen,[],6
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,milk; milk; neutrophil; regular_atrial_cardiac_myocyte; regular_ventricular_card,[],6
+{Gal(b1-4)}{Gal(b1-4)}GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,kidney; liver; muscle_structure; muscle_structure; muscle_structure; liver,[],6
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,lung; milk; milk; milk; neutrophil; regular_atrial_cardiac_myocyte,[],6
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; heart; heart; heart; muscle_of_leg; prostate_gland,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer']",6
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney; liver; plasma; plasma,[],6
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood_serum; heart; liver; muscle_structure; muscle_structure; muscle_structure,[],6
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; heart; heart; heart; ovary,['colorectal_cancer'],5
+Neu5Gc(a2-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,O,cervical_mucus; heart; mucosa; mucosa_of_stomach; zona_pellucida,[],5
+Fuc(a1-3/4)[Gal(b1-3/4)]GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; heart; liver; ovary; regular_atrial_cardiac_myocyte,[],5
+Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A549_cell_line; CHOK1_cell_line; HEK293_cell_line; heart; muscle_of_leg,[],5
+{GlcNAc(b1-4/6)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,CHOS_cell_line; PBMC_cell; cornea; mast_cell; muscle_structure,[],5
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3)[Man(a1-6)]Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; heart; kidney; lung; thymus,[],5
+Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Man(a1-3)[Man(a1-6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; lung; spleen; thymus,[],5
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney; muscle_structure; muscle_structure,[],5
+{Fuc(a1-2/3/4)}Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HeLaEV2_cell_line; HeLaPF_cell_line; K562_cell_line; heart; kidney,[],5
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HL60_cell_line; K562_cell_line; T_cells; heart; spleen,[],5
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,amniotic_fluid; blood_serum; heart; plasma; trachea,['Crohn_disease'],5
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,milk; milk; milk; regular_atrial_cardiac_myocyte; regular_ventricular_cardiac_my,[],5
+{Fuc(a1-2/3/4)}Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,K562_cell_line; heart; natural_killer_cell; pancreas; spleen,[],5
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; heart; heart; muscle_of_leg; soft_palate,[],5
+Neu5Ac(a2-8)Neu5Ac(a2-6)[Gal(b1-3)]GalNAc,O,actinopterygian_pyloric_caecum; gill; heart; ileum; intestinal_mucosa,[],5
+{Gal(b1-4)}GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; milk; heart; liver,[],5
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,alveolus_of_lung; kidney; muscle_structure; ovary; placenta,[],5
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,colonic_mucosa; heart; stomach; zona_pellucida,[],4
+Man(a1-2)Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,blood_serum; heart; heart; lung,[],4
+{Man(a1-2)}{Man(a1-2)}{Man(a1-2)}Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Cervicovaginal_Secretion; muscle_structure; muscle_structure; muscle_structure,[],4
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,cervical_mucus; colon; heart; zona_pellucida,[],4
+{Man(a1-2)}{Man(a1-2)}Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Cervicovaginal_Secretion; muscle_structure; muscle_structure; muscle_structure,[],4
+{Neu5Ac(a2-3/6)}Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,HL60_cell_line; K562_cell_line; heart; kidney,[],4
+Fuc(a1-3/4)[Gal(b1-3/4)]GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; heart; liver; lung,[],4
+{Neu5Ac(a2-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; muscle_structure; muscle_structure,[],4
+{Gal(a1-3)}{Gal(a1-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; muscle_structure; muscle_structure; muscle_structure,[],4
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; muscle_structure; muscle_structure; muscle_structure,[],4
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; muscle_structure; muscle_structure; muscle_structure,[],4
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,aorta; erythrocyte; skeletal_muscle_tissue; thymus,[],4
+{Gal(a1-3)}{Neu5Ac(a2-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; muscle_structure; muscle_structure,[],4
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; liver; muscle_of_leg; liver,[],4
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,milk; milk; neutrophil; regular_atrial_cardiac_myocyte,[],4
+Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; heart; muscle_of_leg,[],3
+{Gal(a1-3)}Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney,[],3
+{Gal(b1-4)GlcNAc(b1-2/4)}Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_structure; muscle_structure; muscle_structure,[],3
+{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_structure; muscle_structure; muscle_structure,[],3
+Man(a1-2)Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,blood_serum; heart; heart,[],3
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,milk; regular_atrial_cardiac_myocyte; regular_ventricular_cardiac_myocyte,[],3
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc,O,A549_cell_line; HEK293_cell_line; skeletal_muscle_tissue,[],3
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Fuc(a1-3/4)[Gal(b1-3/4)]GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; regular_atrial_cardiac_myocyte; regular_ventricular_cardiac_myocyte,[],3
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Fuc(a1-3/4)[Gal(b1-3/4)]GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte; regular_ventricular_cardiac_myocyte; spleen,[],3
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney,[],3
+Gal(b1-4)GlcNAc(b1-2)Man,O,skeletal_muscle_tissue; stomach; striatum,[],3
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_structure; muscle_structure; muscle_structure,[],3
+{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; kidney,[],3
+GalNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,erythrocyte; pericardium; stomach,[],3
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood_serum; heart; muscle_of_leg,[],3
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,milk; milk; regular_atrial_cardiac_myocyte,[],3
+{Gal(a1-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; muscle_structure; muscle_structure,[],3
+{Gal(b1-4)}GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)[GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_structure; muscle_structure; muscle_structure,[],3
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; ovary; urine,[],3
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man,O,brain; skeletal_muscle_tissue; striatum,[],3
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,NS0_cell_line; heart; heart,[],3
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,lung; neutrophil; regular_atrial_cardiac_myocyte,[],3
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,brain; heart; muscle_of_leg,[],3
+{Gal(a1-3)}{Gal(a1-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney; muscle_structure,[],3
+{Neu5Ac(a2-3/6)}Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,K562_cell_line; colon; heart,[],3
+{Gal(b1-4)GlcNAc(b1-2)}Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; kidney; kidney,[],3
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,lung; neutrophil; regular_atrial_cardiac_myocyte,[],3
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; muscle_of_leg; ovary,[],3
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; muscle_of_leg,[],3
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart; muscle_of_leg,[],3
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; heart; muscle_of_leg,[],3
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,A9_fibroblast_cell_line; lung; regular_atrial_cardiac_myocyte,[],3
+{Neu5Ac(a2-8)}Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,O,brain; cortex; heart,[],3
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,milk; milk; regular_atrial_cardiac_myocyte,[],3
+Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,colon; heart; sperm,"['colorectal_cancer', 'colorectal_cancer', 'colorectal_cancer']",3
+{Gal(a1-3)}{Gal(a1-3)}Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; kidney,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-?)[Gal(b1-4)GlcNAc(b1-2)Man(a1-?)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; liver,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,lung; regular_atrial_cardiac_myocyte,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,neutrophil; regular_atrial_cardiac_myocyte,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,neutrophil; regular_atrial_cardiac_myocyte,[],2
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,NS0_cell_line; muscle_of_leg,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-?)[GlcNAc(b1-2)Man(a1-?)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; liver,[],2
+Gal(b1-3)GlcNAc(b1-2)Man(a1-3)[Gal(b1-3)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,brain; regular_atrial_cardiac_myocyte,[],2
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3)[Man(a1-6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; thymus,[],2
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood_serum; heart,['Crohn_disease'],2
+Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; muscle_of_leg,[],2
+GlcNAc(b1-2)Man,O,skeletal_muscle_tissue; stomach,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; kidney,[],2
+Fuc(a1-3/4)[Gal(b1-3/4)]GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; regular_atrial_cardiac_myocyte,[],2
+Neu5Ac(a2-3/6)Gal(b1-3/4)[Fuc(a1-3/4)]GlcNAc(b1-2/4/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,colon; heart,[],2
+{Neu5Ac(a2-3/6)}Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,K562_cell_line; heart,[],2
+{Fuc(a1-2/3/4)}{Neu5Ac(a2-3/6)}Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,K562_cell_line; heart,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; heart,[],2
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; secretion_of_lacrimal_gland,[],2
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; heart,[],2
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,brain; heart,[],2
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; muscle_of_leg,[],2
+Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; sperm,[],2
+Neu5Ac(a2-3/6)Gal(b1-3/4)[Fuc(a1-3/4)]GlcNAc(b1-2/4/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,colon; heart,[],2
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_structure; muscle_structure,[],2
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; muscle_of_leg,[],2
+{Gal(?1-?)}Gal(b1-3)GalNAc,O,colon; heart,[],2
+Neu5Ac(a2-3)Gal6S(b1-3)GalNAc,O,brain; heart,[],2
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; heart,[],2
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,milk; regular_atrial_cardiac_myocyte,[],2
+Neu5Ac(a2-3)Gal(b1-3)[Gal3S(b1-4)GlcNAc(b1-6)]GalNAc,O,heart; lung_epithelium,[],2
+Gal(?1-?)Gal(b1-4)GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc,O,milk; skeletal_muscle_tissue,[],2
+{GlcNAc(b1-3/4/6)}Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,PBMC_cell; muscle_structure,[],2
+{GlcNAc(b1-3/4/6)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,PBMC_cell; muscle_structure,[],2
+Neu5Gc(a2-8)Neu5Ac(a2-3)[Gal(b1-3)GalNAc(b1-4)]Gal(b1-4)Glc1Cer,lipid,skeletal_muscle_tissue; skeletal_muscle_tissue,[],2
+{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_structure; muscle_structure,[],2
+{Neu5Ac(a2-3/6)}Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_structure; muscle_structure,[],2
+{Neu5Gc(a2-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_structure; muscle_structure,[],2
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,blood_serum; muscle_structure,[],2
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,milk; regular_atrial_cardiac_myocyte,[],2
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,milk; regular_atrial_cardiac_myocyte,[],2
+{Neu5Ac(a2-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,kidney; muscle_structure,[],2
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; muscle_of_leg,[],2
+Neu5Gc(a2-8)Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; muscle_of_leg,[],2
+Neu5Gc(a2-8)Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; muscle_of_leg,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; heart,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart; muscle_structure,[],2
+{Neu5Ac(a2-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_structure; muscle_structure,[],2
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart; muscle_of_leg,[],2
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,colon; regular_atrial_cardiac_myocyte,[],2
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-6)[Neu5Gc(a2-3)Gal(b1-3)]GalNAc,O,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_of_leg,[],1
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_of_leg,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_of_leg,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_of_leg,[],1
+Neu5Gc(a2-8)Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_of_leg,[],1
+Neu5Gc(a2-8)Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_of_leg,[],1
+HexNAc(?1-3)[Neu5Ac(a2-6)]GalNAc,O,skeletal_muscle_tissue,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man,O,skeletal_muscle_tissue,['Parkinson_disease'],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc,O,heart,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Neu5Gc(a2-3)Gal(b1-3)]GalNAc,O,heart,[],1
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Man(a1-2)Man(a1-6)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_of_leg,[],1
+Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GalNAc,O,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Gc(a2-3)[Gal(b1-3)GalNAc(b1-4)]Gal(b1-4)Glc1Cer,lipid,skeletal_muscle_tissue,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_of_leg,[],1
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_of_leg,[],1
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_of_leg,[],1
+Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc1Cer,lipid,skeletal_muscle_tissue,[],1
+Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Man(a1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,muscle_of_leg,[],1
+HexNAc(?1-?)GalNAc,O,skeletal_muscle_tissue,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc,O,heart,[],1
+GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3)[Man(a1-6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Man(a1-3)Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_of_leg,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+{Gal(a1-3)}{Gal(a1-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_structure,[],1
+{Gal(a1-3)}{Neu5Ac(a2-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_structure,[],1
+{Neu5Ac(a2-3)}{Neu5Ac(a2-3)}Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,muscle_structure,[],1
+Fuc(a1-2)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(b1-4)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GalNAc,O,heart,[],1
+Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc,O,heart,[],1
+Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,O,heart,[],1
+Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)[Neu5Gc(a2-6)]GalNAc,O,heart,[],1
+Gal6S(b1-3)GalNAc,O,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc,O,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,O,heart,[],1
+Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc,O,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3/6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)[Gal(b1-4)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Gc(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc,O,heart,[],1
+Neu5Gc(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc,O,heart,[],1
+Neu5Gc(a2-3)[Gal(b1-4)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)[Neu5Gc(a2-6)]GalNAc,O,heart,[],1
+GalNAc(a1-3)GalNAc(b1-3)Gal(a1-4)Gal1Cer,lipid,heart,[],1
+GalNAc(b1-3)Gal(a1-4)Gal1Cer,lipid,heart,[],1
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(a1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(a1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(a1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(a1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+GlcNAc(b1-2)Man(a1-3)[GlcNAc(a1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+GlcNAc(b1-2)Man(a1-3)[GlcNAc(a1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+GlcNAc(b1-2)Man(a1-3)[GlcNAc(a1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Man(a1-3)[Man(a1-6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+{Fuc(a1-2/3/4)}{Neu5Ac(a2-3/6)}{Neu5Ac(a2-3/6)}Gal(b1-3)[GlcNAc(b1-6)]GalNAc,O,heart,[],1
+{Gal(?1-?)}{Neu5Ac(a2-3/6)}Gal(b1-3)GalNAc,O,heart,[],1
+{Neu5Ac(a2-3/6)}{Neu5Ac(a2-3/6)}Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,O,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-2)[Neu5Ac(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2/4/6)[Neu5Gc(a2-3/6)Gal(b1-2)GlcNAc(b1-2/4/6)]Man(a1-3/6)[Neu5Gc(a2-3/6)Gal(b1-2)GlcNAc(b1-2)[Neu5Gc(a2-3/6)Gal(b1-4)GlcNAc(b1-4/6)]Man(a1-3/6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,regular_atrial_cardiac_myocyte,[],1
+Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(b1-4)GlcNAc(b1-2/4/6)[GlcNAc(b1-2/4/6)]Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+{Gal(b1-4)}Gal(b1-4)GlcNAc(b1-2/4/6)[GlcNAc(b1-2/4/6)]Man(a1-3/6)[GlcNAc(b1-2)Man(a1-3/6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Neu5Gc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+GlcNAc(b1-2)Man(a1-3)[Man(a1-?)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Gal(b1-4)GlcNAc(b1-2)Man(a1-?)[GlcNAc(b1-2)Man(a1-?)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Gal(b1-4)GlcNAc(b1-2)Man(a1-?)[GlcNAc(b1-2)Man(a1-?)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,heart,[],1
+Gal(a1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-?)[GlcNAc(b1-2)Man(a1-?)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
+Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-?)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,heart,[],1
