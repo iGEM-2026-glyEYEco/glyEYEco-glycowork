@@ -134,3 +134,66 @@ Possibly could do some research to find out if this has any other purposes other
 
 - Step 4:
 Currently, Section 3 is trying to compare it to other gal families proving it's the best, perhaps because it used to be gal 8, this whole data set is incorrect. Instead it uses a different IUPAC annotation between the databases, meaning the gal 3 we're using is different from the gal 3 that's comparing. Hence the reason why we don't get a result, instead it just states what our off targets are and how gal 3 is present in 78 and 8 ocular glycans, (just facts, no results) We need to redo this whole section, keeping only 3.7 (write a writeup on why this is important under it), 3.8. When your redoing this whole thing, do not compare it with our off targets for 3.8, instead the storyline should be 2 parts. part 1: Find off targets, check binding affinity, check structural affinity, results being 3.8 in a list, then we'll add more. part 2: ensures gal 3 binds optimally with our fusion protein, which is yet to be decided so leave this after section 1. (Throughout this whole process do not delete anything, I would just make a copy of gal 3 analysis.ipynb, because there's a chance we're still going to use it.) 
+
+# Sections 8 
+
+These sections answer a question Section 2.4 left open: does a tissue's glycosylation actually change in disease, and does our Gal-3 target get caught up in that change? We could not read it straight off the database. `df_glycan` has no glycans tagged with a dry-eye term (searching `disease_association` for *dry eye*, *sicca*, *keratoconjunctivitis* and the rest returns nothing), and the disease labels that do exist are almost all cancers. So instead of pulling a labelled cohort that isn't there, we encode each disease as a glycan *signature* taken from the glycomics literature, split the relevant tissue glycome on whether a glycan carries that signature, and measure how the rest of the structural repertoire differs between the two halves.
+
+All four systems run through one shared helper (`signature_comparison`) so they are directly comparable. For each one it pulls the tissue subset from `df_glycan`, annotates every glycan with its `glycowork` "known" motifs, splits the subset into a signature cohort and a baseline cohort, then tests each motif with Welch's t-test and Fisher's exact test (Benjamini-Hochberg FDR correction). The outputs per system are a stats CSV, a volcano plus effect-size figure, and SNFG drawings of the marker glycans.
+
+One caveat applies to all of them: the cohorts are defined by literature. The helper accepts a real tumour-vs-normal glycan list unchanged the day we have one.
+
+Why: the ocular-surface mucins normally carry long, sialylated O-glycans, and dry-eye disease truncates them (Tn, sialyl-Tn, and bare Core 1 build up). We take that truncation set as the signature. The detail that matters for us is that the target sits inside it: if disease truncates the ocular O-glycome, the Gal-3 anchor (Core 1) becomes more abundant, not less.
+
+### Section 9  Vaginal / cervical cancer
+Why: a worked cancer example on an O-glycan-dominant mucosal surface. HPV-driven cervical and vaginal carcinoma is reported to raise Lewis X fucosylation, branched Core 2 and truncated Core 1 O-glycans, bisecting GlcNAc, and poly-LacNAc, and those five motifs define the diseased cohort here.
+
+### Section 10  Kidney / renal cell carcinoma
+Why: a contrasting, N-glycan-dominant organ. Renal cell carcinoma raises core fucosylation (FUT8), high-mannose N-glycans, and branching. Core fucosylation on its own splits the renal subset close to evenly, which keeps the comparison well-powered.
+
+### Section 11  Respiratory system (lung)
+Why: a second N-glycan system, to see whether the kidney pattern repeats. Lung adenocarcinoma and chronic airway disease share a shift toward core fucosylation (a long-standing NSCLC serum marker), Lewis X, bisecting GlcNAc, and branched Core 2 O-glycans.
+
+### Section 12  Cross-system synthesis
+Why: with four systems on the same scale we line them up on one heatmap (rows are the strongest motif shifts, columns are the systems, colour is the fold change, a star marks significance) plus a count of significant motifs per system. The map separates two axes. The eye and the cervix move on a mucin O-glycan axis, while the kidney and lung move on an N-glycan fucosylation and branching axis. Core fucosylation is the cleanest divider: high in both cancer-bearing organs but baseline at the eye. That is the reassuring read for the project, because it places the ocular target on the O-glycan axis, well away from the fucosylation and branching motifs that dominate the off-target organs.
+
+Generated files: `dry_eye_motif_stats.csv`, `vaginal_motif_stats.csv`, `kidney_motif_stats.csv`, `respiratory_motif_stats.csv`, `fig_*_volcano.png`, `fig_*_marker_*.png`, `fig_crosssystem_motif_heatmap.png`, and `fig_crosssystem_sig_counts.png`.
+
+# Comparing Sections 9, 10, 11 to Section 8
+
+The method is identical across all four sections (same `signature_comparison` helper, same statistics). Section 8 (dry eye) is the reference case; what changes in 9, 10 and 11 is the tissue, the literature signature, and the biology that falls out.
+
+### Side-by-side overview
+
+| Dimension | 8 Dry eye (reference) | 9 Vaginal / cervical | 10 Kidney / RCC | 11 Respiratory / lung |
+|---|---|---|---|---|
+| Disease type | Ocular-surface disease (non-cancer) | Cancer | Cancer | Cancer |
+| Tissue glycans (n) | 134 | 234 | 344 | 519 |
+| Dominant glycan class | O-glycan | O-glycan | N-glycan | Mixed N/O |
+| Signature biology | O-glycan truncation | Lewis + O-glycan branching | Core fucosylation + N-glycan | Core fucosylation + Lewis |
+| Signature motifs | Tn, sialyl-Tn, Core 1, sialyl-T | LewisX, Core 1, Core 2, bisecting, polyLacNAc | core fucose, high-mannose, bisecting, LewisX | core fucose, LewisX, bisecting, Core 2 |
+| How signature is matched | Regex (Tn/sTn are not named motifs) plus one motif | Named motifs only | Named motifs only | Named motifs only |
+| Cohort split (diseased / baseline) | 23 / 111 | 149 / 85 | 208 / 136 | 293 / 226 |
+| Diseased fraction | 17% (minority) | 64% | 60% | 56% |
+| Significant motifs (q<0.05) | 8 | 11 | 10 | 14 |
+| Direction of shifts | Mostly down (6 down / 2 up) | Mostly up (9 up / 2 down) | Mostly up (8 up / 2 down) | Mostly up (10 up / 4 down) |
+| Structural axis | O-glycan | O-glycan | N-glycan fucosylation / branching | N-glycan fucosylation / branching |
+
+### Each section relative to Section 8
+
+| Section | Shares with Section 8 | Differs from Section 8 |
+|---|---|---|
+| 9 Vaginal | Same O-glycan axis; Core 1 / Core 2 mucin cores enriched, N-glycan cores depleted | Cancer not dry eye; signature is common in the tissue (64% vs 17%); shifts run up, not down; adds Lewis and polyLacNAc |
+| 10 Kidney | Same pipeline and statistics only | Opposite axis (N-glycan). The exact motifs Section 8 loses (core fucose, trimannosyl core, LewisX) are the ones it gains; core fucose is the top hit (+9.7) where in Section 8 it is the top loss (-9.5) |
+| 11 Respiratory | Same pipeline; like kidney, opposite axis to Section 8 | Mixed N/O tissue, so it picks up both core fucose / Lewis (like kidney) and Core 2 mucin (like 8 and 9); the most significant motifs of the four (14) |
+
+### Top enriched motifs (where each signature actually points)
+
+| Section | Strongest up-shifts (log2 fold change) |
+|---|---|
+| 8 Dry eye | Oglycan_core1 (+9.0), Disialyl_T_antigen (+7.5) |
+| 9 Vaginal | Oglycan_core2 (+8.5), i_antigen (+7.9), Mucin_elongated_core2 (+7.9), polyLacNAc (+7.9), Oglycan_core1 (+7.8) |
+| 10 Kidney | core_fucose (+9.7), bisectingGlcNAc (+8.1), Internal_LewisX (+7.4), high_mannose (+6.5) |
+| 11 Respiratory | core_fucose (+9.3), Internal_LewisX (+8.1), Oglycan_core2 (+7.9), bisectingGlcNAc (+7.8) |
+
+Takeaway: Section 9 is the O-glycan sibling of Section 8 (same mucin axis, cancer instead of dry eye), while Sections 10 and 11 are its mirror image on the N-glycan fucosylation and branching axis. Core fucosylation is the cleanest pivot: it is Section 8's biggest loss but Sections 10 and 11's biggest gain.
