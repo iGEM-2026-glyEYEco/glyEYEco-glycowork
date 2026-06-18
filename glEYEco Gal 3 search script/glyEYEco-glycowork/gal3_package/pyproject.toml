@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "gal3"
+version = "0.1.0"
+description = "Galectin-3 computational validation pipeline (glEYEco × glycowork)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "glycowork",
+    "pandas",
+    "numpy",
+    "scipy",
+    "statsmodels",
+    "matplotlib",
+    "seaborn",
+]
+
+[project.optional-dependencies]
+ml   = ["glycowork[ml]"]    # LectinOracle_flex predictions
+chem = ["glycowork[chem]", "rdkit"]   # IUPAC → SMILES → PDB
+dev  = ["pytest", "ipykernel"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gal3*"]
